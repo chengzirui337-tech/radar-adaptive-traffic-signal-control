@@ -1,0 +1,39 @@
+{
+  "type": "synthetic_SUMO_input",
+  "seed": 10159,
+  "vehicle_count": 1186,
+  "arrival_model": "piecewise homogeneous Poisson; independent uniform times conditional on count",
+  "config": {
+    "stage_seconds": 900,
+    "decision_seconds": 5,
+    "detection_m": 150.0,
+    "bin_m": 15.0,
+    "min_green": 10,
+    "max_green": 60,
+    "yellow": 3,
+    "all_red": 1,
+    "fixed_greens": [
+      22,
+      10,
+      34,
+      14
+    ],
+    "demand_update_seconds": 60,
+    "fluctuation": 0.15,
+    "turning_jitter": 0.02,
+    "stop_speed": 0.1,
+    "position_noise_m": 0.0,
+    "speed_noise_mps": 0.0,
+    "reward_wait": 0.01,
+    "reward_queue": 1.0,
+    "reward_stop": 2.0,
+    "gamma": 0.99,
+    "learning_rate": 0.0003,
+    "batch_size": 64,
+    "replay_size": 50000,
+    "warmup_steps": 1000,
+    "target_update_steps": 250,
+    "train_every": 2,
+    "drain_seconds": 600
+  }
+}

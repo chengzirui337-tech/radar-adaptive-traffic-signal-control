@@ -1,0 +1,14 @@
+Loading net-file from 'results/optimized/timing_diagnostic/network/intersection.net.xml' ... done (4ms).
+Loading route-files incrementally from 'results/optimized/timing_diagnostic/data/seed_1003/demand.rou.xml'
+Loading done.
+Simulation version 1.28.0 started via libsumo with time: 0.00.
+Simulation ended at time: 4612.00.
+Reason: Libsumo requested termination.
+Performance:
+ Duration: 7.86s
+ Real time factor: 587.067
+ UPS: 11198.447047
+Vehicles:
+ Inserted: 1236
+ Running: 0
+ Waiting: 0

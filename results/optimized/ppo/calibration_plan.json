@@ -1,0 +1,17 @@
+{
+  "parameter": "add bias to switch logit for greedy evaluation",
+  "candidates": [
+    -1.0,
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+  ],
+  "validation_seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "final_test_used": false,
+  "selection": "minimum validation mean delay, tie favors zero bias"
+}

@@ -1,0 +1,552 @@
+{
+  "passed": true,
+  "runs": 90,
+  "seed_count": 10,
+  "frozen_checkpoints_verified": true,
+  "safety_intervals_verified": true,
+  "unfinished_vehicles": 0,
+  "metric_recomputation_passed": true,
+  "semi_markov_transitions_verified": true,
+  "details": [
+    {
+      "method": "fixed",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_40",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_longer",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "imitation_only",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_uncalibrated",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_predictive",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "phase_imitation",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2001,
+      "vehicles": 1176,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2002,
+      "vehicles": 1183,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2003,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2004,
+      "vehicles": 1178,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2005,
+      "vehicles": 1214,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2006,
+      "vehicles": 1180,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2007,
+      "vehicles": 1187,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2008,
+      "vehicles": 1162,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2009,
+      "vehicles": 1142,
+      "safety_passed": true
+    },
+    {
+      "method": "ppo_phase",
+      "seed": 2010,
+      "vehicles": 1166,
+      "safety_passed": true
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checks": [
+    "main duration",
+    "signal durations",
+    "coverage",
+    "collision/teleport",
+    "complete trip cohorts",
+    "demand conservation",
+    "metric recomputation",
+    "DQN transition dimensions"
+  ],
+  "runs": [
+    {
+      "method": "fixed",
+      "seed": 101,
+      "vehicle_count": 1150,
+      "trajectory_rows": 44406,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 102,
+      "vehicle_count": 1146,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "fixed",
+      "seed": 103,
+      "vehicle_count": 1206,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 101,
+      "vehicle_count": 1150,
+      "trajectory_rows": 34744,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 102,
+      "vehicle_count": 1146,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "actuated",
+      "seed": 103,
+      "vehicle_count": 1206,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_full",
+      "seed": 101,
+      "vehicle_count": 1150,
+      "trajectory_rows": 38101,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_full",
+      "seed": 102,
+      "vehicle_count": 1146,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_full",
+      "seed": 103,
+      "vehicle_count": 1206,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_near",
+      "seed": 101,
+      "vehicle_count": 1150,
+      "trajectory_rows": 38364,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_near",
+      "seed": 102,
+      "vehicle_count": 1146,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    },
+    {
+      "method": "dqn_near",
+      "seed": 103,
+      "vehicle_count": 1206,
+      "trajectory_rows": 0,
+      "seconds": 4500,
+      "safety_passed": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Local runtimes and credentials
+.packages/
+.venv/
+.runtime/
+.github_upload/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.zip
+~$*
+# Per-episode intermediate SUMO output (demand, history and models are retained)
+results/**/training/**/episode_*/
+report_work/rendered/

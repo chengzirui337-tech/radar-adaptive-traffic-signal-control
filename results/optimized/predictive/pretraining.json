@@ -1,0 +1,6 @@
+{
+  "examples": 2116,
+  "updates": 1600,
+  "training_accuracy": 1.0,
+  "label": "training accuracy, not held-out control performance"
+}

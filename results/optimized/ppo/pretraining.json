@@ -1,0 +1,7 @@
+{
+  "examples": 2116,
+  "gradient_updates": 1800,
+  "training_accuracy": 1.0,
+  "critic_target": "duration-discounted expert Monte Carlo return",
+  "greedy_policy_preserved": true
+}

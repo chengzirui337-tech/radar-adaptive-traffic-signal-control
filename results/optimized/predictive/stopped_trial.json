@@ -1,0 +1,5 @@
+{
+  "status": "stopped_after_episode_7",
+  "reason": "Training return deteriorated; retained original logs. This trial is excluded from final model selection.",
+  "final_test_accessed": false
+}

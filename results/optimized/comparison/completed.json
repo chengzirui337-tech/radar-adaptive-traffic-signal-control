@@ -1,0 +1,6 @@
+{
+  "selected_method": "ppo_phase",
+  "seed_count": 10,
+  "runs": 90,
+  "no_test_based_reselection": true
+}

@@ -1,0 +1,14 @@
+Loading net-file from 'results/optimized/ppo/network/intersection.net.xml' ... done (5ms).
+Loading route-files incrementally from 'results/optimized/ppo/data/seed_1003/demand.rou.xml'
+Loading done.
+Simulation version 1.28.0 started via libsumo with time: 0.00.
+Simulation ended at time: 4587.00.
+Reason: Libsumo requested termination.
+Performance:
+ Duration: 3.87s
+ Real time factor: 1185.58
+ UPS: 22612.561385
+Vehicles:
+ Inserted: 1236
+ Running: 0
+ Waiting: 0

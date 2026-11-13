@@ -1,0 +1,46 @@
+{
+  "green_states": [
+    "GGrrrrGGrrrr",
+    "rrGrrrrrGrrr",
+    "rrrGGrrrrGGr",
+    "rrrrrGrrrrrG"
+  ],
+  "lane_lengths_m": {
+    "E_in_0": 306.4,
+    "E_in_1": 306.4,
+    "E_in_2": 306.4,
+    "N_in_0": 306.4,
+    "N_in_1": 306.4,
+    "N_in_2": 306.4,
+    "S_in_0": 306.4,
+    "S_in_1": 306.4,
+    "S_in_2": 306.4,
+    "W_in_0": 306.4,
+    "W_in_1": 306.4,
+    "W_in_2": 306.4
+  },
+  "destinations": {
+    "N": [
+      "E",
+      "S",
+      "W"
+    ],
+    "S": [
+      "W",
+      "N",
+      "E"
+    ],
+    "E": [
+      "S",
+      "W",
+      "N"
+    ],
+    "W": [
+      "N",
+      "E",
+      "S"
+    ]
+  },
+  "source": "SUMO synthetic network",
+  "speed_limit_mps": 13.89
+}
